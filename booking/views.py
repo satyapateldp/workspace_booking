@@ -9,9 +9,6 @@ from django.shortcuts import get_object_or_404
 from booking.models import Room, Booking, Team
 from booking.serializers import RoomSerializer, BookingSerializer, TeamSerializer
 
-def home(request):
-    return render(request, 'index.html')
-
 
 class IsAdmin(permissions.BasePermission):
     def has_permission(self, request, view):
