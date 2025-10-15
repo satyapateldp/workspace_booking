@@ -1,5 +1,5 @@
 # Use stable Python 3.12 image
-FROM python:3.12.1-slim
+FROM python:3.12.3-slim
 
 
 # Prevent Python from writing .pyc files and enable unbuffered output
